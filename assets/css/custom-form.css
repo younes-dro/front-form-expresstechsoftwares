@@ -1,0 +1,60 @@
+div.custom-form-wrapper{
+        max-width: 90%;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+div.form-element{
+    margin-bottom: 40px;
+}
+div.form-save{
+        text-align: center;
+
+}
+h1.form-title{
+    font-size: 26px;
+    /* border: 1px solid; */
+    text-align: center;
+    padding-top: 20px!important;
+    padding-bottom: 20px!important;
+}
+@media screen and (min-width:992px){
+    h1.form-title{
+    font-size: 40px;
+    }
+}
+.supp-post{
+    border: 1px solid #ccc;
+}
+.sending{
+      background-color: #28303d8a!important;
+}
+
+.pagination {
+   clear:both;
+   position:relative;
+   font-size:16px; 
+   line-height:13px;
+   float:right; 
+	list-style-type:none;
+	width:100%; 
+}
+.pagination span, .pagination a {
+   display:block;
+   float:left;
+   margin: 2px 2px 2px 0;
+   padding: 20px;
+   text-decoration:none;
+   width:auto;
+   color:#fff; 
+   background: #237697; 
+}
+.pagination a:hover{
+   color:#fff;
+   background: #000; 
+}
+.pagination .current{
+   padding:6px 9px 5px 9px;
+   background: #999; 
+   color:#ccc;
+}
